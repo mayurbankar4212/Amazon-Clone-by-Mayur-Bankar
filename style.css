@@ -1,0 +1,276 @@
+*                     /* main things to set before anything on page*/ {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+/*INFO ABOUT LOGO */
+/* all navigation bar info are written here */
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* all navigation logo info are written here */
+.nav-logo{
+  height: 50px;
+  width: 100px;
+}
+ /* all logo info are written here */
+.logo{
+  background-image: url("amazon_logo.png "); /*logo url*/
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+/*how border look like will here when we hover*/
+.border{
+  border: 1.5x solid transparent;
+}
+/*solid border around logo*/
+.border:hover{
+  border: 1.5px solid white;
+}
+
+/*BOX 2 OF NAVBAR INFO ABOUT LOCATION  */
+/*first address representation i.e Deliver to  */
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+/* Second address representation i.e India*/
+.add-second  {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+/*It will display 2 vertical lines in side by side form i.e Deliver to and India with location logo*/
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+
+/*BOX 3 OF NAVBAR INFO ABOUT search bar  */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+/*Search info styling done here*/
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: left;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+/*serach inuts styling*/
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+/*search icon styling  */
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+/*If you serch on search section border will apply i.e hover effect*/
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* Box 4*/
+/*This is used for Deliver to Styling*/
+span {
+  font-size: 0.7rem;
+}
+/*This is used for Order Styling*/
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/*box 6*/
+/*Styling for cart icon*/
+.nav-cart i {
+  font-size: 30px;
+}
+/*Styling for cart icon*/
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/*Panel Content styling starts here after navbar*/
+/*overall panel styling applied here*/
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*panel styling for options i.e todays deals,customer service etc and p tag*/
+.panel-ops p {
+  display: inline;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+/*panel styling for options i.e todays deals,customer service etc */
+.panel-ops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+/*Panel styling for Shop deals div*/
+.panel-deals {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/*Hero Section*/
+/*After panel conent there is big background image known as hero image div all styling done here*/
+.hero-section {
+  background-image: url("hero_image.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/*on that hero image text styling done here*/
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 25px;
+}
+/*hero msg and a tag styling is done here*/
+.hero-msg a {
+  color: #007185;
+  text-decoration: none;
+}
+/*Downside of image there is eight boxes all styling for box is done here*/
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+/*Shopping section menas all eight boxes main container styling is done here*/
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e3e7e6;
+}
+/*all shopping box styling*/
+.box-image {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/*Inside all shopping box content styling*/
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/*Inside all shopping box content and p tag styling*/
+.box-content p {
+  color: #007185;
+}
+/*Footer styling done here*/
+footer {
+  margin-top: 15px;
+}
+/*footer back to top panel styling*/
+.foot-panel1 {
+  background-color: #37575a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+/*all unordered list of footer styling */
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/*all unordered list of footer styling */
+ul {
+  margin-top: 20px;
+}
+/*all unordered list and a tag of footer styling */
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+/*footer amazon logo styling is done here*/
+.foot-panel3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*footer amazon logo styling is done here*/
+.logo {
+  background-image: url("amazon_logo.png ");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+/*footer pages means conditions ,privacy policy styling */
+.foot-panel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 100px;
+}
+/*footer pages means conditions ,privacy policy styling */
+.pages {
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 25px;
+}
+/*Footer last copyright part styling*/
+.copyright {
+  padding-top: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
